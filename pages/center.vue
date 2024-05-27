@@ -50,7 +50,7 @@
       <div
         class="tw-flex tw-flex-col tw-w-full tw-border tw-border-solid lg:tw-w-1/3  tw-h-full"
       >
-      <img src="/img/map.png" alt="">
+      <img src="/img/Map.png" alt="">
       </div>
     </div>
   </div>
