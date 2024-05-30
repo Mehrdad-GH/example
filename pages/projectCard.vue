@@ -22,19 +22,19 @@
 
     <!-- visible part carousel  -->
     <div
-      class="tw-carousel tw-flex tw-justify-center tw-items-center tw-w-[160vh] tw-mr-5 tw-ml-5 tw-overflow-hidden max-sm:tw-w-[30vh] 2xl:tw-w-[90%]"
+      class="tw-carousel tw-flex tw-justify-center tw-items-center tw-w-[160vh] tw-mr-5 tw-ml-5 tw-overflow-hidden max-sm:tw-w-[30vh] 2xl:tw-w-[150vh]"
       ref="carousel"
     >
       <!-- whole carousel section -->
       <div
-        class="tw-inner tw-w-[35%] tw-transition-transform tw-duration-300 tw-whitespace-nowrap max-sm:tw-w-[90%] sm:tw-w-[25%] lg:tw-w-[30%] lg:tw-mr-2 xl:tw-w-[25%] 2xl:tw-w-[40%]"
+        class="tw-inner tw-w-[35%] tw-transition-transform tw-duration-300 tw-whitespace-nowrap max-sm:tw-w-[90%] sm:tw-w-[25%] lg:tw-w-[30%] lg:tw-mr-2 xl:tw-w-[25%] 2xl:tw-w-[95%]"
         ref="inner"
         :style="innerStyles"
       >
         <!-- carousel card section  -->
         <div class="tw-inline-flex" v-for="card in cards" :key="card.id">
           <div
-            class="tw-card tw-flex tw-flex-col tw-flex-wrap tw-items-center tw-justify-between tw-mr-10 tw-self-stretch tw-w-[45vh] tw-h-[59vh] tw-pb-5 tw-pt-10 tw-px-10 tw-border tw-border-solid tw-border-stone-900 max-sm:tw-w-[26vh] max-sm:tw-px-0 max-sm:tw-h-[50vh] max-sm:tw-mr-12"
+            class="tw-card tw-flex tw-flex-col tw-flex-wrap tw-items-center tw-justify-between tw-mr-10 tw-self-stretch tw-w-[45vh] tw-h-[60vh] tw-pb-5 tw-pt-10 tw-px-10 tw-border tw-border-solid tw-border-stone-900 max-sm:tw-w-[26vh] max-sm:tw-px-0 max-sm:tw-h-[50vh] max-sm:tw-mr-12"
           >
             <div
               class="tw-w-full tw-self-center tw-break-words tw-whitespace-normal tw-mb-10 max-sm:tw-w-[24vh] max-sm:tw-mx-2 max-sm:tw-text-xs sm:tw-text-xs"
